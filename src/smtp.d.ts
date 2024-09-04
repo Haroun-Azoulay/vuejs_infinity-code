@@ -1,4 +1,3 @@
-/// <reference types="vite/client" />
 declare module 'Email' {
     const Email: {
       send: (options: {

@@ -394,9 +394,11 @@
  import imagesLoaded from 'imagesloaded';
  import NavBar from '../navbar/NavBar.vue';
  import Footer from '../footer/Footer.vue';
- import 'owl.carousel/dist/assets/owl.carousel.css';
- import 'owl.carousel';
- 
+ import { useRouter } from 'vue-router';
+ const router = useRouter();
+
+
+
  onMounted(() => {
    console.log('DOM chargé et prêt');
    if ($) {

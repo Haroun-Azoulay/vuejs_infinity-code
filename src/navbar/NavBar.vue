@@ -1,5 +1,5 @@
 <template>
-            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 bg-dark">
                 <a href="" class="navbar-brand p-0">
                     <h1 class="m-0"><i class="fa-solid fa-infinity fa-xl pe-4" style="color: #ffffff;"></i>Infinity<span class="fs-5">Code</span></h1>
                 </a>
@@ -9,7 +9,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Accueil</a>
+                        <a href="#" @click="navigateToHomePage" class="nav-item nav-link active">Accueil</a>
                         <a href="about.html" class="nav-item nav-link">A Propos</a>
                         <a href="service.html" class="nav-item nav-link">Services</a>
                         <a href="project.html" class="nav-item nav-link">Projets</a>
@@ -21,7 +21,7 @@
                                 <a href="404.html" class="dropdown-item">404 Page</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contacte</a>
+                        <a href="#" @click="navigateToContactPage" class="nav-item nav-link">Contacte</a>
                     </div>
                     <!-- <button type="button" class="btn text-secondary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button> -->
                 </div>
@@ -29,6 +29,17 @@
 </template>
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
+import { useRouter } from 'vue-router';
+ const router = useRouter();
+
+
+ const navigateToContactPage = () => {
+    router.push({ path: "/contact" })
+}
+
+const navigateToHomePage = () => {
+    router.push({ path: "/" })
+}
 
 onMounted(() => {
   console.log('DOM chargé et prêt');

@@ -13,6 +13,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "dotenv": "^16.4.5",
     "imagesloaded": "^5.0.0",
     "isotope-layout": "^3.0.6",
     "jquery": "^3.7.1",
