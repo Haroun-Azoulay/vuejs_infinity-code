@@ -18,7 +18,7 @@
                       type="text"
                       class="form-control"
                       id="name"
-                      v-model="name"
+                       
                       placeholder="Votre Nom"
                     />
                     <label for="name">Votre Nom</label>
@@ -81,7 +81,6 @@ import Footer from "../footer/Footer.vue";
 import Email from "../assets/smtp/smtp.js";
 
 
-console.log(import.meta.env.VITE_USERNAME)
 const name = ref("");
 const email = ref("");
 const subjects = ref("");
