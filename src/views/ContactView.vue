@@ -76,9 +76,8 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
+import { ref } from "vue";
 import NavBar from "../navbar/NavBar.vue";
-import Footer from "../footer/Footer.vue";
 import Email from "../assets/smtp/smtp.js";
 
 

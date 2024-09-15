@@ -44,7 +44,7 @@
   </nav>
 </template>
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
+import { onMounted } from "vue";
 import { useRouter } from "vue-router";
 const router = useRouter();
 
@@ -57,16 +57,11 @@ const navigateToHomePage = () => {
 };
 
 onMounted(() => {
-  console.log("DOM chargé et prêt");
-  if ($) {
-    console.log("jQuery est chargé");
-  } else {
-    console.error("jQuery ne se charge pas");
-  }
 
   // Sticky Navbar
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 45) {
+    const scrollTop = $(this)?.scrollTop();
+    if (scrollTop && scrollTop > 45) {
       $(".navbar").addClass("sticky-top shadow-sm");
     } else {
       $(".navbar").removeClass("sticky-top shadow-sm");
