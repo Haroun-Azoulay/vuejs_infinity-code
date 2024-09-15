@@ -19,8 +19,8 @@
                          <div class="col-lg-6 text-center text-lg-start">
                              <h1 class="text-white mb-4 animated zoomIn">Agence Web</h1>
                              <p class="text-white pb-3 animated zoomIn">Notre équipe réalise des sites webs, applications mobiles, gestion des CMS, Réference gogole, maintenance des sites, ainsi que la préstation de cours en présentiel jusqu'a niveau Master 2</p>
-                             <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">07 67 21 46 79</a>
-                             <a href="" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contactez Nous</a>
+                             <a href="tel:+762195305" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">07 62 19 53 05</a>
+                             <a href="" @click="navigateToContactPage" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contactez Nous</a>
                          </div>
                          <div class="col-lg-6 text-center text-lg-start">
                              <img class="img-fluid rounded" src="../assets/img/infinity-code.png" alt="">
@@ -113,9 +113,9 @@
                              <div class="service-icon flex-shrink-0">
                                  <i class="fa fa-home fa-2x"></i>
                              </div>
-                             <h5 class="mb-3">SEO Optimization</h5>
-                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                             <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                             <h5 class="mb-3">Optimisation SEO</h5>
+                             <p>Nous optimisons votre site pour les moteurs de recherche afin d'améliorer sa visibilité et d'attirer plus de visiteurs qualifiés. Profitez de notre expertise pour augmenter votre classement et générer du trafic organique.</p>
+                             <!-- <a class="btn px-3 mt-auto mx-auto" href="">Read More</a> -->
                          </div>
                      </div>
                      <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -123,9 +123,9 @@
                              <div class="service-icon flex-shrink-0">
                                  <i class="fa fa-home fa-2x"></i>
                              </div>
-                             <h5 class="mb-3">Web Design</h5>
-                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                             <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                             <h5 class="mb-3">Conception de sites web</h5>
+                             <p>Nous créons des sites web attrayants et fonctionnels qui reflètent votre marque et répondent aux besoins de vos utilisateurs. De la conception au développement, nous nous occupons de tout pour vous offrir une présence en ligne professionnelle.</p>
+                             <!-- <a class="btn px-3 mt-auto mx-auto" href="">Read More</a> -->
                          </div>
                      </div>
                      <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -133,9 +133,9 @@
                              <div class="service-icon flex-shrink-0">
                                  <i class="fa fa-home fa-2x"></i>
                              </div>
-                             <h5 class="mb-3">Social Media Marketing</h5>
-                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                             <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                             <h5 class="mb-3">Marketing des médias sociaux</h5>
+                             <p>Nous développons des stratégies de marketing sur les réseaux sociaux pour accroître votre visibilité, engager votre audience et stimuler la croissance de votre entreprise. Laissez-nous gérer vos campagnes pour maximiser votre impact.</p>
+                             <!-- <a class="btn px-3 mt-auto mx-auto" href="">Read More</a> -->
                          </div>
                      </div>
                      <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
@@ -143,12 +143,12 @@
                              <div class="service-icon flex-shrink-0">
                                  <i class="fa fa-home fa-2x"></i>
                              </div>
-                             <h5 class="mb-3">Email Marketing</h5>
-                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                             <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                             <h5 class="mb-3">Développement d'applications mobiles</h5>
+                             <p>Nous développons des applications mobiles innovantes et performantes pour Android et iOS, adaptées à vos besoins spécifiques. Profitez d'une interface utilisateur intuitive et de fonctionnalités avancées pour engager vos utilisateurs.</p>
+                             <!-- <a class="btn px-3 mt-auto mx-auto" href="">Read More</a> -->
                          </div>
                      </div>
-                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                     <!-- <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                          <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                              <div class="service-icon flex-shrink-0">
                                  <i class="fa fa-home fa-2x"></i>
@@ -157,17 +157,17 @@
                              <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                              <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
                          </div>
-                     </div>
-                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                     </div> -->
+                     <!-- <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                          <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                              <div class="service-icon flex-shrink-0">
                                  <i class="fa fa-home fa-2x"></i>
                              </div>
-                             <h5 class="mb-3">App Development</h5>
+                             <h5 class="mb-3">Developpement app mobile</h5>
                              <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                              <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
                          </div>
-                     </div>
+                     </div> -->
                  </div>
              </div>
          </div>
@@ -324,8 +324,8 @@
          <div class="container-xxl py-5">
              <div class="container px-lg-5">
                  <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-                     <h6 class="position-relative d-inline text-primary ps-4">Our Team</h6>
-                     <h2 class="mt-2">Meet Our Team Members</h2>
+                     <h6 class="position-relative d-inline text-success ps-4">Notre équipe</h6>
+                     <h2 class="mt-2">Rencontrez notre équipe</h2>
                  </div>
                  <div class="row g-4">
                      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -340,8 +340,8 @@
                                  <img class="img-fluid rounded w-100" src="./assets/img/team-1.jpg" alt="">
                              </div>
                              <div class="px-4 py-3">
-                                 <h5 class="fw-bold m-0">Jhon Doe</h5>
-                                 <small>CEO</small>
+                                 <h5 class="fw-bold m-0">Haroun Azoulay</h5>
+                                 <small>Developeur</small>
                              </div>
                          </div>
                      </div>
@@ -357,25 +357,8 @@
                                  <img class="img-fluid rounded w-100" src="./assets/img/team-2.jpg" alt="">
                              </div>
                              <div class="px-4 py-3">
-                                 <h5 class="fw-bold m-0">Emma William</h5>
-                                 <small>Manager</small>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                         <div class="team-item">
-                             <div class="d-flex">
-                                 <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
-                                     <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                     <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-twitter"></i></a>
-                                     <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-instagram"></i></a>
-                                     <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                 </div>
-                                 <img class="img-fluid rounded w-100" src="./assets/img/team-3.jpg" alt="">
-                             </div>
-                             <div class="px-4 py-3">
-                                 <h5 class="fw-bold m-0">Noah Michael</h5>
-                                 <small>Designer</small>
+                                 <h5 class="fw-bold m-0">Mohammed Diouani</h5>
+                                 <small>Chef de projet / Commercial</small>
                              </div>
                          </div>
                      </div>
@@ -397,6 +380,9 @@
  import { useRouter } from 'vue-router';
  const router = useRouter();
 
+const navigateToContactPage = () => {
+  router.push({ path: "/contact" });
+};
 
 
  onMounted(() => {

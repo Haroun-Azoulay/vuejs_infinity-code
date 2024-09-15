@@ -91,7 +91,7 @@ h6,
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--dark) !important;
+    color: white;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -176,7 +176,7 @@ h6,
     }
 
     .sticky-top.navbar-light .navbar-brand h1 {
-        color: var(--primary);
+        color: white;
     }
 }
 

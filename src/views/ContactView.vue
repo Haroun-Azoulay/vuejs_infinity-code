@@ -1,4 +1,5 @@
 <template>
+  <NavBar />
   <div class="container-xxl py-5">
     <div class="container px-lg-5">
       <div class="row justify-content-center">
