@@ -127,11 +127,11 @@ h6,
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
         margin-left: 0;
-        color: var(--dark) !important;
+        color: white;
     }
 
     .navbar-light .navbar-brand h1 {
-        color: var(--primary);
+        color: white;
     }
 
     .navbar-light .navbar-brand img {

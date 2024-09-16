@@ -19,16 +19,15 @@
               <h1 class="text-white mb-4 animated zoomIn">Agence Web</h1>
               <p class="text-white pb-3 animated zoomIn">
                 Notre équipe réalise des sites webs, applications mobiles,
-                gestion des CMS, Réference gogole, maintenance des sites, ainsi
-                que la préstation de cours en présentiel jusqu'a niveau Master 2
+                gestion des CMS, Réference gogole, maintenance des sites
               </p>
               <a
                 href="tel:+762195305"
                 class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
+                style="margin:1rem"
                 >07 62 19 53 05</a
               >
               <a
-                href=""
                 @click="navigateToContactPage"
                 class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight"
                 >Contactez Nous</a
@@ -589,7 +588,7 @@
                 </div>
                 <img
                   class="img-fluid rounded w-100"
-                  src="../assets/img/team-2.jpg"
+                  src="../assets/img/team-1.jpg"
                   alt=""
                 />
               </div>
@@ -617,7 +616,7 @@ import { useRouter } from "vue-router";
 const router = useRouter();
 
 const navigateToContactPage = () => {
-  router.push({ path: "/contact" });
+  router.push({ path: "contact" });
 };
 
 onMounted(() => {

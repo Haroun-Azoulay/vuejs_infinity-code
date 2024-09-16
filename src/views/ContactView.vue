@@ -8,7 +8,7 @@
             <h6 class="position-relative d-inline text-primary ps-4">
               Pour nous Contacter
             </h6>
-            <h2 class="mt-2">Contact For Any Query</h2>
+            <h2 class="mt-2">Formulaire de contact</h2>
           </div>
           <div>
             <form @submit.prevent="sendEmail">

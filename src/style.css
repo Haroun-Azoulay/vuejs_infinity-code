@@ -64,6 +64,12 @@ button:focus-visible {
   padding: 2rem;
   text-align: center;
 }
+@media (max-width: 967px) {
+  #app {
+    overflow: hidden;
+  }
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {

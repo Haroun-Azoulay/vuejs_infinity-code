@@ -9,14 +9,17 @@
       </h1>
     </a>
     <!-- <img src="./assets/img/infini.jpg" alt="Logo"> -->
+
     <button
       class="navbar-toggler"
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#navbarCollapse"
+      style="color: white"
     >
       <span class="fa fa-bars"></span>
     </button>
+    
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <div class="navbar-nav ms-auto py-0">
         <a href="#" @click="navigateToHomePage" class="nav-item nav-link active"
